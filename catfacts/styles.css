@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+body > button {
+    padding: 4vh 2vw;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+body > button:hover {
+    background: white;
+    color: black;
+}
